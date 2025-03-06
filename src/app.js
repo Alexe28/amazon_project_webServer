@@ -1,5 +1,8 @@
-const {envs}=require('./config/env')
-const {starServer}=require('./server/server')
+//const {envs}=require('./config/env')
+//const {starServer}=require('./server/server')
+import {envs} from './config/env.js';
+import { starServer } from './server/server.js';
+
 const main=()=>{
     starServer({
         port: envs.PORT,

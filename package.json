@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Creando mi primer servicio web en node js",
   "main": "src/app.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/app.js"
   },
